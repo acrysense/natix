@@ -40,16 +40,16 @@
 						<nav class="nav header__nav">
 							<ul class="nav__list">
 								<li class="nav__item">
-									<a href="#" class="nav__link">Кейсы</a>
+									<a href="cases.html" class="nav__link">Кейсы</a>
 								</li>
 								<li class="nav__item">
-									<a href="#" class="nav__link">Услуги</a>
+									<a href="services.html" class="nav__link">Услуги</a>
 								</li>
 								<li class="nav__item">
-									<a href="#" class="nav__link">О компании</a>
+									<a href="about.html" class="nav__link">О компании</a>
 								</li>
 								<li class="nav__item">
-									<a href="#" class="nav__link">Контакты</a>
+									<a href="contacts.html" class="nav__link">Контакты</a>
 								</li>
 							</ul>
 						</nav>
@@ -89,7 +89,7 @@
 					</div>
 					<div class="contacts__wrap">
 						<div class="contacts__left">
-							<span class="contacts__label">Контакты</span>
+							<span class="contacts__label">Основной офис</span>
 						</div>
 						<div class="contacts__right">
 							<div class="contacts__inner">
@@ -236,7 +236,25 @@
 									</div>
 									<span class="input-field__error">Значение введено неверно!</span>
 								</div>
-								<div class="attach-files discuss-project-form__attach"></div>
+								<div class="attach-files discuss-project-form__attach">
+									<div class="attach-files__wrapper">
+										<div class="attach-files__top">
+											<span class="attach-files__title">Прикрепить файл(ы)</span>
+											<span class="attach-files__formats">Doc, Docx, Pdf, Jpg</span>
+										</div>
+										<div class="attach-files__main">
+											<button class="attach-files__attach">
+												<svg>
+													<use xlink:href="img/sprite.svg#icon-attach"></use>
+												</svg>
+											</button>
+										</div>
+										<div class="attach-files__bottom">
+											<span class="attach-files__help">Перетащите сюда файл(ы) или</span>
+											<button class="attach-files__attach-btn btn btn--sm btn--dark">Выберите с устройства</button>
+										</div>
+									</div>
+								</div>
 								<button class="discuss-project-form__btn btn">
 									<span>Отправить заявку</span>
 									<svg>
@@ -313,6 +331,43 @@
 		<!-- end of footer -->
 	</div>
 	<!-- end of wrapper -->
+	<!-- mobile menu -->
+	<div class="mobile-menu" id="mobile-menu">
+		<div class="mobile-menu__wrap">
+			<nav class="nav mobile-menu__nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="cases.html" class="nav__link">Кейсы</a>
+					</li>
+					<li class="nav__item">
+						<a href="services.html" class="nav__link">Услуги</a>
+					</li>
+					<li class="nav__item">
+						<a href="about.html" class="nav__link">О компании</a>
+					</li>
+					<li class="nav__item">
+						<a href="contacts.html" class="nav__link">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mobile-menu__bottom">
+				<span class="mobile-menu__value">г. Москва, Варшавское шоссе, д. 42 <a href="#">на карте</a></span>
+				<a href="tel:+74950850922" class="mobile-menu__value">+7 (495) 085-09-22</a>
+				<a href="mailto:info@natix.ru" class="mobile-menu__value">info@natix.ru</a>
+				<div class="c-contacts mobile-menu__contacts">
+					<ul class="c-contacts__list">
+						<li class="c-contacts__item">
+							<a href="#" class="c-contacts__link">
+								<img src="img/icon-tg.svg" alt="Icon">
+								<span>Наш telegram</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of mobile menu -->
 	<!-- scripts -->
 	<script src="js/vendor.min.js"></script>
 	<script src="js/app.min.js"></script>
