@@ -53,7 +53,7 @@
 								</li>
 							</ul>
 						</nav>
-						<a href="#" class="header__btn btn btn--md">Обсудить проект</a>
+						<a href="#discuss-project" class="header__btn btn btn--md">Обсудить проект</a>
 						<button class="hamburger" id="hamburger-toggle" aria-label="Меню">
 							<span class="hamburger__inner"></span>
 							<span class="hamburger__inner"></span>
@@ -91,162 +91,186 @@
 					</div>
 					<div class="tabs">
 						<ul class="tabs__list">
-							<li class="tabs__item">
-								<button class="tabs__tab">Все кейсы <span>(38)</span></button>
+							<li class="tabs__item is--active">
+								<button class="tabs__tab">
+									<span>Все кейсы</span>
+									<span>(38)</span>
+								</button>
 							</li>
 							<li class="tabs__item">
-								<button class="tabs__tab">Корпоративные сайты <span>(10)</span></button>
+								<button class="tabs__tab">
+									<span>Корпоративные сайты</span>
+									<span>(10)</span>
+								</button>
 							</li>
 							<li class="tabs__item">
-								<button class="tabs__tab">Интернет-магазины <span>(18)</span></button>
+								<button class="tabs__tab">
+									<span>Интернет-магазины</span>
+									<span>(18)</span>
+								</button>
 							</li>
 							<li class="tabs__item">
-								<button class="tabs__tab">Сервисы <span>(6)</span></button>
+								<button class="tabs__tab">
+									<span>Сервисы</span>
+									<span>(6)</span>
+								</button>
 							</li>
 							<li class="tabs__item">
-								<button class="tabs__tab">Приложения <span>(4)</span></button>
+								<button class="tabs__tab">
+									<span>Приложения</span>
+									<span>(4)</span>
+								</button>
 							</li>
 						</ul>
-					</div>
-					<div class="all-cases__wrapper">
-						<div class="all-cases-card all-cases__item">
-							<div class="all-cases-card__top">
-								<span class="all-cases-card__value">(01)</span>
-								<span class="all-cases-card__value">(2021)</span>
-							</div>
-							<a href="#" class="all-cases-card__title">
-								<span>Бастион оптово-розничная база металопроката с каталогом и online-заказом</span>
-								<svg>
-									<use xlink:href="img/sprite.svg#icon-arrow-top-right"></use>
-								</svg>
-							</a>
-							<ul class="all-cases-card__tags">
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Брендинг</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Проектирование</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Веб-дизайн</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Программирование</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">SMM</a>
-								</li>
-							</ul>
-							<div class="all-cases-card__slider">
-								<div class="swiper">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-01.jpg" alt="Image">
-											</picture>
+						<div class="tabs__holder is--active">
+							<div class="all-cases__wrapper">
+								<div class="all-cases-card all-cases__item">
+									<div class="all-cases-card__top">
+										<span class="all-cases-card__value">(01)</span>
+										<span class="all-cases-card__value">(2021)</span>
+									</div>
+									<a href="#" class="all-cases-card__title">
+										<span>Бастион оптово-розничная база металопроката с каталогом и online-заказом</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-top-right"></use>
+										</svg>
+									</a>
+									<ul class="all-cases-card__tags">
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Брендинг</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Проектирование</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Веб-дизайн</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Программирование</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">SMM</a>
+										</li>
+									</ul>
+									<div class="all-cases-card__slider">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-01.jpg" alt="Image">
+													</picture>
+												</div>
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-02.jpg" alt="Image">
+													</picture>
+												</div>
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-03.jpg" alt="Image">
+													</picture>
+												</div>
+											</div>
 										</div>
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-02.jpg" alt="Image">
-											</picture>
-										</div>
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-03.jpg" alt="Image">
-											</picture>
-										</div>
+										<div class="swiper-pagination"></div>
+										<span class="all-cases-card__more">+23</span>
 									</div>
 								</div>
-								<div class="swiper-pagination"></div>
-							</div>
-						</div>
-						<div class="all-cases-card all-cases__item">
-							<div class="all-cases-card__top">
-								<span class="all-cases-card__value">(02)</span>
-								<span class="all-cases-card__value">(2020)</span>
-							</div>
-							<a href="#" class="all-cases-card__title">
-								<span>Amaiatogo</span>
-								<svg>
-									<use xlink:href="img/sprite.svg#icon-arrow-top-right"></use>
-								</svg>
-							</a>
-							<ul class="all-cases-card__tags">
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Проектирование</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Веб-дизайн</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Программирование</a>
-								</li>
-							</ul>
-							<div class="all-cases-card__slider">
-								<div class="swiper">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-01.jpg" alt="Image">
-											</picture>
+								<div class="all-cases-card all-cases__item">
+									<div class="all-cases-card__top">
+										<span class="all-cases-card__value">(02)</span>
+										<span class="all-cases-card__value">(2020)</span>
+									</div>
+									<a href="#" class="all-cases-card__title">
+										<span>Amaiatogo</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-top-right"></use>
+										</svg>
+									</a>
+									<ul class="all-cases-card__tags">
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Проектирование</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Веб-дизайн</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Программирование</a>
+										</li>
+									</ul>
+									<div class="all-cases-card__slider">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-01.jpg" alt="Image">
+													</picture>
+												</div>
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-02.jpg" alt="Image">
+													</picture>
+												</div>
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-03.jpg" alt="Image">
+													</picture>
+												</div>
+											</div>
 										</div>
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-02.jpg" alt="Image">
-											</picture>
-										</div>
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-03.jpg" alt="Image">
-											</picture>
-										</div>
+										<div class="swiper-pagination"></div>
+										<span class="all-cases-card__more">+16</span>
 									</div>
 								</div>
-								<div class="swiper-pagination"></div>
-							</div>
-						</div>
-						<div class="all-cases-card all-cases__item">
-							<div class="all-cases-card__top">
-								<span class="all-cases-card__value">(03)</span>
-								<span class="all-cases-card__value">(2020)</span>
-							</div>
-							<a href="#" class="all-cases-card__title">
-								<span>Verryberry <br>Lab</span>
-								<svg>
-									<use xlink:href="img/sprite.svg#icon-arrow-top-right"></use>
-								</svg>
-							</a>
-							<ul class="all-cases-card__tags">
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Веб-дизайн</a>
-								</li>
-								<li class="all-cases-card__tags-item">
-									<a href="#" class="all-cases-card__tags-elem">Программирование</a>
-								</li>
-							</ul>
-							<div class="all-cases-card__slider">
-								<div class="swiper">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-01.jpg" alt="Image">
-											</picture>
+								<div class="all-cases-card all-cases__item">
+									<div class="all-cases-card__top">
+										<span class="all-cases-card__value">(03)</span>
+										<span class="all-cases-card__value">(2020)</span>
+									</div>
+									<a href="#" class="all-cases-card__title">
+										<span>Verryberry <br>Lab</span>
+										<svg>
+											<use xlink:href="img/sprite.svg#icon-arrow-top-right"></use>
+										</svg>
+									</a>
+									<ul class="all-cases-card__tags">
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Веб-дизайн</a>
+										</li>
+										<li class="all-cases-card__tags-item">
+											<a href="#" class="all-cases-card__tags-elem">Программирование</a>
+										</li>
+									</ul>
+									<div class="all-cases-card__slider">
+										<div class="swiper">
+											<div class="swiper-wrapper">
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-01.jpg" alt="Image">
+													</picture>
+												</div>
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-02.jpg" alt="Image">
+													</picture>
+												</div>
+												<div class="swiper-slide">
+													<picture class="all-cases-card__img">
+														<img src="img/cases-card-03.jpg" alt="Image">
+													</picture>
+												</div>
+											</div>
 										</div>
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-02.jpg" alt="Image">
-											</picture>
-										</div>
-										<div class="swiper-slide">
-											<picture class="all-cases-card__img">
-												<img src="img/cases-card-03.jpg" alt="Image">
-											</picture>
-										</div>
+										<div class="swiper-pagination"></div>
+										<span class="all-cases-card__more">+9</span>
 									</div>
 								</div>
-								<div class="swiper-pagination"></div>
 							</div>
 						</div>
+						<div class="tabs__holder"></div>
+						<div class="tabs__holder"></div>
+						<div class="tabs__holder"></div>
+						<div class="tabs__holder"></div>
 					</div>
 				</div>
 			</section>
@@ -325,7 +349,7 @@
 		<!-- end of content -->
 		<!-- footer -->
 		<footer class="footer" id="footer">
-			<div class="container">
+			<div class="container container--wide">
 				<div class="footer__wrapper">
 					<div class="footer__column">
 						<div class="footer__block">
