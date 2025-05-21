@@ -1429,6 +1429,53 @@
 		</div>
 	</div>
 	<!-- end of mobile menu -->
+	<!-- popups -->
+	<div class="popup" id="popup-success">
+		<div class="popup__wrap">
+			<div class="popup__wrapper">
+				<button class="popup__close-btn popup__close" aria-label="Закрыть">
+					<svg class="popup__close-icon popup__close-icon--default">
+						<use xlink:href="img/sprite.svg#icon-close-thin"></use>
+					</svg>
+					<svg class="popup__close-icon popup__close-icon--mobile">
+						<use xlink:href="img/sprite.svg#icon-close-bold"></use>
+					</svg>
+				</button>
+				<picture class="popup__icon">
+					<img src="img/icon-success.svg" alt="Image">
+				</picture>
+				<div class="popup__body">
+					<span class="popup__title">Ваша заявка принята!</span>
+					<span class="popup__description">Благодарим за обращение.</span>
+				</div>
+				<div class="popup__bottom">
+					<button class="popup__btn popup__close btn btn--dark">Ok</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="popup" id="popup-error">
+		<div class="popup__wrap">
+			<div class="popup__wrapper">
+				<button class="popup__close-btn popup__close" aria-label="Закрыть">
+					<svg>
+						<use xlink:href="img/sprite.svg#icon-close-thin"></use>
+					</svg>
+				</button>
+				<picture class="popup__icon">
+					<img src="img/icon-error.svg" alt="Image">
+				</picture>
+				<div class="popup__body">
+					<span class="popup__title">Хм, что-то пошло не так :(</span>
+					<span class="popup__description">Попробуйте еще раз.</span>
+				</div>
+				<div class="popup__bottom">
+					<button class="popup__btn popup__close btn btn--dark">Попробовать еще раз</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of popups -->
 	<!-- scripts -->
 	<script src="js/vendor.min.js"></script>
 	<script src="js/app.min.js"></script>
